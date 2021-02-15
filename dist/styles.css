@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+	background: url(https://i.postimg.cc/qq1zFHSp/white-waves.png);
+	text-align: justify;
+	/* width: 90vw; */
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin: 2vmax 20vmax 2vmax 20vmax;
+	font-family: Nunito;
+	font-size: x-large;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#image {
+	max-width: 100%;
+	height: auto;
+	width: 30rem;
+	border-radius: 50%;
+}
+
+#tribute-info {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	line-height: 3vmax;
+}
+
+footer {
+	align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+	#main {
+		margin: 2vmin 4vmin 2vmin 4vmin;
+		font-size: x-large;
+	}
+
+	#tribute-info {
+		line-height: 6vmax;
+	}
+}
